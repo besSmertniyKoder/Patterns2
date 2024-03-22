@@ -104,7 +104,7 @@ public class Main {
         redRectangle.draw();
 
         // Factory Pattern
-        Shape circle = ShapeFactory.createShape("circle");
+        Shape circle = ShapeFactory.createShape("rectangle");
         circle.draw();
 
         // Adapter Pattern
