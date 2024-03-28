@@ -111,5 +111,6 @@ public class Main {
         LegacyRectangle legacyRectangle = new LegacyRectangle(5, 7);
         Shape adaptedRectangle = new RectangleAdapter(legacyRectangle);
         adaptedRectangle.draw();
+
     }
 }
